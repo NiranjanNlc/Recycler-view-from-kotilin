@@ -14,7 +14,7 @@ class UserAdapter(val userList: Array<USER>) : RecyclerView.Adapter<UserAdapter.
         fun bindItems(user: USER) {
             val textViewName = itemView.findViewById(R.id.textViewUsername) as TextView
             val textViewAddress = itemView.findViewById(R.id.textViewAddress) as TextView
-            textViewName.text = user.name
+            textViewName.text = user.nam
             textViewAddress.text = user.addr
         }
     }

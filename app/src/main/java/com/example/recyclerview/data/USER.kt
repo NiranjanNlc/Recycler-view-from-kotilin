@@ -1,4 +1,4 @@
-package com.example.recyclerview.Data
+package com.example.recyclerview.data
 
 enum class USER (val nam:String,val addr:String)
 {
